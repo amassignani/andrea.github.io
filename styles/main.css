@@ -3,27 +3,45 @@ body {
   margin: 0;
 
 }
-header {
+/*header {
   background:
-}
-header h1 {
+}*/
+h1 {
   color: #666;
   margin: 0;
   display: inline;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 
 }
 nav ul {
   margin: 0;
   display: inline;
+  float: left;
 
 }
 nav ul li {
   background: yellow;
   color: green;
+  border-radius: 6px;
   display: inline-block;
   list-style-type: none;
   padding: 5px 15px;
 }
 nav ul li a {
   color: #666;
+}
+p h4 {
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 960px;
+  padding: 0;
+  color: #666;
+}
+h1 h2 h3 {
+  font: #999;
+  margin-bottom: 22px;
 }
